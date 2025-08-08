@@ -8,7 +8,8 @@
     "test": "vitest",
     "test:watch": "vitest watch",
     "test:unit": "vitest run tests/unit/",
-  "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "sample-test": "npx browserstack-node-sdk playwright test --config=./browserstack.config.ts"
   },
   "keywords": [],
   "author": "",
