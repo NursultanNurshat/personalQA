@@ -1,0 +1,56 @@
+2025-08-08 15:47:59 - [34mdebug[39m: Could not locate npm module path with error  Command failed: npm ls
+(node:37278) [DEP0176] DeprecationWarning: fs.X_OK is deprecated, use fs.constants.X_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! missing: msw@^2.4.9, required by @vitest/mocker@3.2.4
+npm ERR! missing: bare-buffer@*, required by bare-fs@4.1.6
+npm ERR! missing: bare-buffer@*, required by bare-stream@2.6.5
+npm ERR! missing: encoding@^0.1.0, required by node-fetch@2.7.0
+npm ERR! missing: bufferutil@^4.0.1, required by ws@8.18.3
+npm ERR! missing: utf-8-validate@>=5.0.2, required by ws@8.18.3
+npm ERR! missing: @edge-runtime/vm@*, required by vitest@3.2.4
+npm ERR! missing: @types/debug@^4.1.12, required by vitest@3.2.4
+npm ERR! missing: happy-dom@*, required by vitest@3.2.4
+npm ERR! missing: jsdom@*, required by vitest@3.2.4
+npm ERR! missing: @vitest/browser@3.2.4, required by vitest@3.2.4
+npm ERR! missing: @vitest/ui@3.2.4, required by vitest@3.2.4
+npm ERR! missing: undici-types@~7.10.0, required by @types/node@24.2.0
+npm ERR! missing: jiti@>=1.21.0, required by vite@7.1.1
+npm ERR! missing: less@^4.0.0, required by vite@7.1.1
+npm ERR! missing: lightningcss@^1.21.0, required by vite@7.1.1
+npm ERR! missing: sass@^1.70.0, required by vite@7.1.1
+npm ERR! missing: sass-embedded@^1.70.0, required by vite@7.1.1
+npm ERR! missing: stylus@>=0.54.8, required by vite@7.1.1
+npm ERR! missing: sugarss@^5.0.0, required by vite@7.1.1
+npm ERR! missing: terser@^5.16.0, required by vite@7.1.1
+npm ERR! missing: tsx@^4.8.1, required by vite@7.1.1
+npm ERR! missing: yaml@^2.4.2, required by vite@7.1.1
+
+2025-08-08 15:47:59 - [32minfo[39m: Creating configuration file...
+2025-08-08 15:47:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-08-08 15:47:59 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/powr-admin/Desktop/personalQA/node_modules/@playwright/test/package.json
+2025-08-08 15:47:59 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-08-08 15:47:59 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/powr-admin/Desktop/personalQA/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/powr-admin/Desktop/personalQA/node_modules/browserstack-node-sdk/src/bin/setup.js
+2025-08-08 15:47:59 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-08-08 15:47:59 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/powr-admin/Desktop/personalQA
+2025-08-08 15:47:59 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/powr-admin/Desktop/personalQA
+2025-08-08 15:47:59 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-08-08 15:47:59 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-08-08 15:47:59 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-08-08 15:47:59 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/powr-admin/Desktop/personalQA/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/powr-admin/Desktop/personalQA/node_modules/browserstack-node-sdk/src/bin/setup.js
+2025-08-08 15:47:59 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-08-08 15:47:59 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/powr-admin/Desktop/personalQA
+2025-08-08 15:47:59 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/powr-admin/Desktop/personalQA
+2025-08-08 15:47:59 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-08-08 15:47:59 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-08-08 15:47:59 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKSetup","detectedFramework":"","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"node-setup","referrer":"nodeagent/1.40.7","frameworkVersion":null,"automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v24.5.0","product":["automate","observability"],"buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","os":"Darwin","hostname":"powradminsAir3","seleniumVersion":null}}
+2025-08-08 15:47:59 - [32minfo[39m: Adding new script(s) in package.json...
+2025-08-08 15:47:59 - [32minfo[39m: Setup completed
+2025-08-08 15:47:59 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/event
+2025-08-08 15:48:00 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2025-08-08 15:48:00 - [34mdebug[39m: API Event SDKSetup response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}

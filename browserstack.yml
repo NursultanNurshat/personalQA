@@ -1,0 +1,16 @@
+userName: bsuser_ARLGc0
+accessKey: ngzcbkB4xgMpYDnsVs6r
+framework: playwright
+platforms:
+  - browserName: safari
+    osVersion: 17
+    deviceName: iPhone 15 Pro Max
+browserstackLocal: true
+buildName: bstack-demo
+projectName: PersonalQA
+CUSTOM_TAG_1: "You can set a custom Build Tag here"
+
+debug: true
+consoleLogs: disable
+testObservability: true
+parallelsPerPlatform: 1
