@@ -8,8 +8,7 @@
     "test": "vitest",
     "test:watch": "vitest watch",
     "test:unit": "vitest run tests/unit/",
-    "test:coverage": "vitest run --coverage",
-    "postinstall": "npm update browserstack-node-sdk"
+  "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
